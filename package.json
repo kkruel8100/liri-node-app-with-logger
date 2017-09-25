@@ -1,11 +1,12 @@
 {
-  "name": "liri-node-app",
+  "name": "liri-node-app-with-logger",
   "version": "1.0.0",
   "description": "LIRI will be a command line node app that takes in parameters from user and give back data",
   "main": "liri.js",
   "dependencies": {
     "node-spotify-api": "^1.0.7",
     "request": "^2.82.0",
+    "simple-node-logger": "^0.93.30",
     "twitter": "^1.7.1"
   },
   "devDependencies": {},
@@ -14,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kkruel8100/liri-node-app.git"
+    "url": "git+https://github.com/kkruel8100/liri-node-app-with-logger.git"
   },
   "keywords": [
     "liri",
@@ -28,7 +29,7 @@
   "author": "Kimberly Kruel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kkruel8100/liri-node-app/issues"
+    "url": "https://github.com/kkruel8100/liri-node-app-with-logger/issues"
   },
-  "homepage": "https://github.com/kkruel8100/liri-node-app#readme"
+  "homepage": "https://github.com/kkruel8100/liri-node-app-with-logger#readme"
 }
