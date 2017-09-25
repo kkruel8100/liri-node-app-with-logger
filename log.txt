@@ -1,0 +1,105 @@
+11:06:50.989 INFO  App requested: my-tweets 
+11:06:50.989 INFO  User requested: bootcamptechie 
+11:06:51.345 INFO  Tweet number: 1 - Text content: We have a great new TA in class who is really helpful. 
+11:06:51.345 INFO  Created at: Sun Sep 24 01:08:39 +0000 2017 
+11:06:51.345 INFO  Tweet number: 2 - Text content: This is so cool.  I can now reduce my line of code for RPG. 
+11:06:51.345 INFO  Created at: Sat Sep 23 23:22:21 +0000 2017 
+11:06:51.345 INFO  Tweet number: 3 - Text content: At class, learning about constructors in javascript. 
+11:06:51.345 INFO  Created at: Sat Sep 23 17:29:48 +0000 2017 
+11:06:51.345 INFO  Tweet number: 4 - Text content: Can't wait to have a job as a full stack developer. 
+11:06:51.345 INFO  Created at: Fri Sep 22 19:50:28 +0000 2017 
+11:06:51.345 INFO  Tweet number: 5 - Text content: Been studying jQuery and node.  Watching video and practicing any sublime. 
+11:06:51.345 INFO  Created at: Fri Sep 22 19:49:55 +0000 2017 
+11:06:51.345 INFO  Tweet number: 6 - Text content: It's Friday - Glad for the weekend. 
+11:06:51.345 INFO  Created at: Fri Sep 22 19:47:50 +0000 2017 
+11:06:51.345 INFO  Tweet number: 7 - Text content: Dreaming of pizza for dinner tonight.  Free coupon.  Food always tastes better when you don't pay. 
+11:06:51.345 INFO  Created at: Fri Sep 22 19:47:17 +0000 2017 
+11:06:51.345 INFO  Tweet number: 8 - Text content: Watching videos trying to fine tune interview responses to filter, sort, and map functions.  I think my brain might explode. 
+11:06:51.345 INFO  Created at: Fri Sep 22 19:46:28 +0000 2017 
+11:06:51.345 INFO  Tweet number: 9 - Text content: Hope all goes well and goes QUICK! 
+11:06:51.345 INFO  Created at: Fri Sep 22 19:45:16 +0000 2017 
+11:06:51.345 INFO  Tweet number: 10 - Text content: Just a Bootcamp techie working on new app for class. 
+11:06:51.345 INFO  Created at: Fri Sep 22 19:44:47 +0000 2017 
+11:07:48.679 INFO  App requested: my-tweets 
+11:07:48.679 INFO  User requested: colincowherd 
+11:07:49.059 INFO  Tweet number: 1 - Text content: RT @TheHerd: "Never think everybody reacts the same... You get angry when you expect people to act the way you would act."— @ColinCowherd o… 
+11:07:49.059 INFO  Created at: Mon Sep 25 16:59:11 +0000 2017 
+11:07:49.059 INFO  Tweet number: 2 - Text content: @alxhsa 😂 
+11:07:49.059 INFO  Created at: Mon Sep 25 15:41:00 +0000 2017 
+11:07:49.059 INFO  Tweet number: 3 - Text content: https://t.co/45ShkCJ8r0 
+11:07:49.059 INFO  Created at: Mon Sep 25 15:22:08 +0000 2017 
+11:07:49.059 INFO  Tweet number: 4 - Text content: @KanodiaMD Thx sir. 
+11:07:49.059 INFO  Created at: Mon Sep 25 02:34:47 +0000 2017 
+11:07:49.059 INFO  Tweet number: 5 - Text content: @snikapants @sunshinetrader Ha.   Jets been booing their team for 30 years.  So what.  Still show up. 
+11:07:49.059 INFO  Created at: Mon Sep 25 02:32:43 +0000 2017 
+11:07:49.059 INFO  Tweet number: 6 - Text content: Washington doesn't have the best talent but looks and feels really well coached.  🏈 
+11:07:49.059 INFO  Created at: Mon Sep 25 02:29:58 +0000 2017 
+11:07:49.059 INFO  Tweet number: 7 - Text content: @smokinwater @Redfishrick @B1gSexie You absolutely sure overpaid is two words?  Educated guy. 
+11:07:49.059 INFO  Created at: Mon Sep 25 02:13:19 +0000 2017 
+11:07:49.059 INFO  Tweet number: 8 - Text content: @PastorBano @B1gSexie All stadiums are built by bond measures.  So politics actually builds ALL sports. 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:56:45 +0000 2017 
+11:07:49.059 INFO  Tweet number: 9 - Text content: @Redfishrick @B1gSexie He made about two dozen comments (and counting). Not great at math? 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:51:15 +0000 2017 
+11:07:49.059 INFO  Tweet number: 10 - Text content: @SteveInman33 @B1gSexie Fact--I watch sports for many reasons.  Not always solely for entertainment. 💰 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:49:55 +0000 2017 
+11:07:49.059 INFO  Tweet number: 11 - Text content: @Air_Fris_One8 @B1gSexie No.  I'm a sportscaster who will respond to our president. Who acts 11 on Twitter.   Your… https://t.co/XXxqQYoyRh 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:27:04 +0000 2017 
+11:07:49.059 INFO  Tweet number: 12 - Text content: @dougcarroll5 @B1gSexie 😂.  NFL teams, several, have 30,000 person waiting lists for season tix. 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:25:24 +0000 2017 
+11:07:49.059 INFO  Tweet number: 13 - Text content: @EthanCrisp @B1gSexie Uneducated?  Oh, ok. 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:24:13 +0000 2017 
+11:07:49.059 INFO  Tweet number: 14 - Text content: @Di11on_ Thx for following. 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:19:03 +0000 2017 
+11:07:49.059 INFO  Tweet number: 15 - Text content: @B1gSexie I could argue alcohol, fights, vulgarity and sports don't mix either.   Plenty of that at stadiums. 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:15:03 +0000 2017 
+11:07:49.059 INFO  Tweet number: 16 - Text content: @Glancync @NFL Cya. 
+11:07:49.059 INFO  Created at: Mon Sep 25 01:00:37 +0000 2017 
+11:07:49.059 INFO  Tweet number: 17 - Text content: @drgonzo2017 @ClayTravis @Titans Was all over the news this AM. 
+11:07:49.059 INFO  Created at: Mon Sep 25 00:59:09 +0000 2017 
+11:07:49.059 INFO  Tweet number: 18 - Text content: @ClayTravis @Titans Game wasn't close.  Score wildly misleading. 
+11:07:49.059 INFO  Created at: Sun Sep 24 23:24:21 +0000 2017 
+11:07:49.059 INFO  Tweet number: 19 - Text content: Dalton is weak and Tony Romo has appropriately called him out all day. #goodwork 
+11:07:49.059 INFO  Created at: Sun Sep 24 23:10:43 +0000 2017 
+11:07:49.059 INFO  Tweet number: 20 - Text content: @masanchez10 He's a HOFer.  First ballot. 
+11:07:49.059 INFO  Created at: Sun Sep 24 23:08:44 +0000 2017 
+11:08:05.903 INFO  App requested: spotify-this-song 
+11:08:05.904 INFO  User requested: stairway+to+heaven 
+11:08:06.800 INFO  Name of Artist(s): Led Zeppelin 
+11:08:06.800 INFO  Name of Song: Stairway To Heaven 
+11:08:06.800 INFO  Preview URL: https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=9d5022b8b2c9445f9597c765b565154a 
+11:08:06.800 INFO  Name of Album: Led Zeppelin IV (Deluxe Edition) 
+11:08:16.388 INFO  App requested: spotify-this-song 
+11:08:16.388 INFO  User requested: gfjhslkhjgfdahjdkflsjgkja 
+11:08:17.035 INFO  Song requested does not exist.  Check out:  
+11:08:17.477 INFO  Name of Artist(s): Ace of Base 
+11:08:17.477 INFO  Name of Song: All That She Wants 
+11:08:17.477 INFO  Preview URL: https://p.scdn.co/mp3-preview/b176774bc04182501c2d5d201afda143b1193f31?cid=9d5022b8b2c9445f9597c765b565154a 
+11:08:17.477 INFO  Name of Album: The Sign (US Album) [Remastered] 
+11:08:33.200 INFO  App requested: movie-this 
+11:08:33.200 INFO  User requested: star+wars 
+11:08:33.326 INFO  Title: Star Wars: Episode IV - A New Hope 
+11:08:33.326 INFO  Year: 1977 
+11:08:33.326 INFO  IMDB Rating: 8.7 
+11:08:33.326 INFO  Rotten Tomatoes Rating: 93% 
+11:08:33.326 INFO  Produced in: USA 
+11:08:33.326 INFO  Plot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader. 
+11:08:33.326 INFO  Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing 
+11:08:41.442 INFO  App requested: movie-this 
+11:08:41.443 INFO  User requested: kdjgfdskljgkfjksdajffjd 
+11:08:41.585 INFO  Movie requested not found.  Why don't you check out:  
+11:08:41.677 INFO  Title: Mr. Nobody 
+11:08:41.677 INFO  Year: 2009 
+11:08:41.677 INFO  IMDB Rating: 7.9 
+11:08:41.677 INFO  Rotten Tomatoes Rating: 64% 
+11:08:41.677 INFO  Produced in: Belgium, Germany, Canada, France, USA, UK 
+11:08:41.677 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+11:08:41.677 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+11:08:55.718 INFO  App requested: do-what-it-says 
+11:08:55.718 INFO  User requested:  
+11:08:56.867 INFO  Name of Artist(s): Backstreet Boys 
+11:08:56.867 INFO  Name of Song: I Want It That Way 
+11:08:56.867 INFO  Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=9d5022b8b2c9445f9597c765b565154a 
+11:08:56.867 INFO  Name of Album: The Hits--Chapter One 
+11:09:07.134 INFO  App requested: dowhat 
+11:09:07.134 INFO  User requested:  
+11:09:07.134 INFO  Please enter valid app. 

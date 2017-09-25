@@ -4,6 +4,7 @@ var request = require("request");
 var spotify = require("node-spotify-api");
 var twitter = require("twitter");
 var fs = require("fs");
+var log = require('simple-node-logger').createSimpleLogger('log.txt');
 
 var spotifyAPI = new spotify({
   id: keys.spotifyKeys.id,
@@ -22,6 +23,9 @@ for (var i = 3; i < nodeArgs.length; i++) {
     userRequest = nodeArgs[i];
   }
 }
+
+log.info("App requested: " + appRequest);
+log.info("User requested: " + userRequest);
 
 whichApp(appRequest);
 // capture user application request
@@ -44,7 +48,7 @@ function whichApp(appRequest) {
       break;
 
     default:
-      console.log("Please enter valid app.");
+      log.info("Please enter valid app.");
       break;
   }
 }
@@ -53,10 +57,10 @@ function spotifySong(userRequest) {
   spotifyAPI.search({ type: 'track', query: userRequest }, function(err, data) {
     // if error show default
     if (err) {
-      console.log("Song requested does not exist.  Check out: ");
+      log.info("Song requested does not exist.  Check out: ");
       spotifyAPI.search({ type: 'track', query: 'All That She Wants' }, function(err, data) {
         if (err) {
-          return console.log('Error occurred: ' + err);
+          return log.info('Error occurred: ' + err);
         } else if (data) {
           var requestSong = data.tracks.items[0];
           songDisplay(requestSong);
@@ -73,14 +77,14 @@ function spotifySong(userRequest) {
 
 // show Artist(s), Song's Name, Preview link of song from Spotify, Album song is from
 function songDisplay(requestSong) {
-  console.log("Name of Artist(s): " + requestSong.artists[0].name);
-  console.log("Name of Song: " + requestSong.name);
+  log.info("Name of Artist(s): " + requestSong.artists[0].name);
+  log.info("Name of Song: " + requestSong.name);
   if (!requestSong.preview_url) {
-    console.log("No preview link for song is available.");
+    log.info("No preview link for song is available.");
   } else {
-    console.log("Preview URL: " + requestSong.preview_url);
+    log.info("Preview URL: " + requestSong.preview_url);
   }
-  console.log("Name of Album: " + requestSong.album.name);
+  log.info("Name of Album: " + requestSong.album.name);
 }
 
 // request gets 20 tweets - show last 20 tweets (or number of tweets created if less than 20) and when they were created
@@ -91,11 +95,11 @@ function myTweets(userRequest) {
     if (!error) {
       // loop to capture if results are less than 20 tweets and prevents error
       for (i = 0; i < tweets.length; i++) {
-        console.log("Tweet number: " + (i + 1) + " - Text content: " + tweets[i].text);
-        console.log("Created at: " + tweets[i].created_at);
+        log.info("Tweet number: " + (i + 1) + " - Text content: " + tweets[i].text);
+        log.info("Created at: " + tweets[i].created_at);
       }
     } else {
-      console.log("Twitter user not found.");
+      log.info("Twitter user not found.");
     }
   });
 }
@@ -110,7 +114,7 @@ function movieThis(userRequest) {
 
       // captures undefined - movie not found
       if (requestMovie.Response === "False") {
-        console.log("Movie requested not found.  Why don't you check out: ");
+        log.info("Movie requested not found.  Why don't you check out: ");
         var defaultMovieUrl = "http://www.omdbapi.com/?t=" + "Mr. Nobody" + "&y=&plot=short&apikey=" + keys.omdbKey;
         request(defaultMovieUrl, function(error, response, body) {
           if (!error && response.statusCode === 200) {
@@ -131,26 +135,25 @@ function movieThis(userRequest) {
 // show Title of the movie, Year the movie came out, IMDB Rating of the movie, Rotten Tomatoes Rating of the movie, 
 //Country where the movie was produced, Language of the movie, Plot of the movie, Actors in the movie 
 function movieDisplay(requestMovie) {
-  console.log("Title: " + requestMovie.Title);
-  console.log("Year: " + requestMovie.Year);
-  console.log("IMDB Rating: " + requestMovie.imdbRating);
+  log.info("Title: " + requestMovie.Title);
+  log.info("Year: " + requestMovie.Year);
+  log.info("IMDB Rating: " + requestMovie.imdbRating);
 
   // Checks to see if Rotten Tomato ratings exist in ratings array
   var rotten = requestMovie.Ratings.length;
   var rottenExists = false;
   for (i = 0; i < rotten; i++) {
     if (requestMovie.Ratings[i].Source === "Rotten Tomatoes") {
-      console.log("Rotten Tomatoes Rating: " + requestMovie.Ratings[i].Value);
+      log.info("Rotten Tomatoes Rating: " + requestMovie.Ratings[i].Value);
       rottenExists = true;
     }
   }
   if (rottenExists === false) {
-    console.log("No Rotten Tomatoes Rating available.");
+    log.info("No Rotten Tomatoes Rating available.");
   }
-  console.log("Produced in: " + requestMovie.Country);
-  console.log("Language: " + requestMovie.Language);
-  console.log("Plot: " + requestMovie.Plot);
-  console.log("Actors: " + requestMovie.Actors);
+  log.info("Produced in: " + requestMovie.Country);
+  log.info("Plot: " + requestMovie.Plot);
+  log.info("Actors: " + requestMovie.Actors);
 }
 
 // take text from random.txt and use it to call one of LIRI's commands 
@@ -158,7 +161,7 @@ function movieDisplay(requestMovie) {
 function doWhat() {
   fs.readFile("random.txt", "utf8", function(err, data) {
     if (err) {
-      return console.log(err);
+      return log.info(err);
     }
 
     // Break the string down by comma separation and store the contents into the output array.  Replace quotes with blanks for twitter because invalid user errors
